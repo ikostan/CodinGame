@@ -1,5 +1,11 @@
 '''
 
+WHAT WILL I LEARN?
+Loops
+Solving this puzzle makes you understand the concept of loops and the ways of retrieving the maximum value from a list of integers.
+
+This puzzle can also be a playground to experiment the concept of lambdas in different programming languages. It's also an opportunity to discover functional programming.
+
 The Goal
 Destroy the mountains before your starship collides with one of them. For that, shoot the highest mountain on your path.
 
