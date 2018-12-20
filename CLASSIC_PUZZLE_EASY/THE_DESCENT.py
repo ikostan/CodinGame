@@ -1,4 +1,5 @@
 '''
+Source: https://www.codingame.com/training/easy/the-descent
 
 WHAT WILL I LEARN?
 Loops
