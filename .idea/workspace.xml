@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dddc763-7629-4ba3-a9bd-8a346f491182" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/THE_DESCENT.py" beforeDir="false" afterPath="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/THE_DESCENT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/THE_DESCENT.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="840">
@@ -20,6 +20,18 @@
               <folding>
                 <element signature="e#459#469#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="42">
+                <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -40,6 +52,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/THE_DESCENT.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -62,17 +75,15 @@
               <item name="CodinGame" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodinGame" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CodinGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodinGame" type="462c0819:PsiDirectoryNode" />
-              <item name="CLASSIC_PUZZLE_EASY" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/README.md" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -130,6 +141,16 @@
           <folding>
             <element signature="e#459#469#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="42">
+            <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
