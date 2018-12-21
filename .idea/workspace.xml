@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dddc763-7629-4ba3-a9bd-8a346f491182" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/MARS_LANDER_EPISODE_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/MARS_LANDER_EPISODE_1.py" afterDir="false" />
-    </list>
+    <list default="true" id="0dddc763-7629-4ba3-a9bd-8a346f491182" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/MARS_LANDER_EPISODE_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+            <state relative-caret-position="139">
+              <caret line="50" column="44" lean-forward="true" selection-start-line="49" selection-end-line="50" selection-end-column="44" />
               <folding>
                 <element signature="e#2016#2026#0" expanded="true" />
               </folding>
@@ -108,7 +106,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981302" />
@@ -172,8 +169,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/MARS_LANDER_EPISODE_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+        <state relative-caret-position="139">
+          <caret line="50" column="44" lean-forward="true" selection-start-line="49" selection-end-line="50" selection-end-column="44" />
           <folding>
             <element signature="e#2016#2026#0" expanded="true" />
           </folding>
