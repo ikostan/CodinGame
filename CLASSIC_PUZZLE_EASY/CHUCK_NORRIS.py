@@ -60,18 +60,18 @@ import math
 # the standard input according to the problem statement.
 
 message = input()
-#message = 'Chuck Norris\' keyboard has 2 keys: 0 and white space.'
 
 binaryMessage = ''
-#print(message, file=sys.stderr)
+print(message, file=sys.stderr)
 
 for t in message:
     # print(bin(ord(t))[2:], file=sys.stderr)
-    binaryMessage += bin(ord(t))[2:]
-    if len(binaryMessage) < 7:
-        binaryMessage = '0' + binaryMessage
+    tempMsg = bin(ord(t))[2:]
+    if len(tempMsg) < 7:
+        tempMsg = '0' + tempMsg
+    binaryMessage += tempMsg
 
-#print(binaryMessage, file=sys.stderr)
+# print(binaryMessage, file=sys.stderr)
 
 # Write an action using print
 # To debug: print("Debug messages...", file=sys.stderr)
