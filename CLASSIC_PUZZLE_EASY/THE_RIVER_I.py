@@ -52,3 +52,51 @@ Output
 47
 
 '''
+
+import sys
+import math
+
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
+
+maxValue = 20000000
+
+
+def calcFollowingValue(val):
+    val = str(val)
+    digits = list(val)
+    # print(digits, file=sys.stderr)
+    for i in range(len(digits)):
+        digits[i] = int(digits[i])
+    return int(val) + sum(digits)
+
+
+r_1 = int(input())
+r_2 = int(input())
+
+isMet = False
+
+firstArr = []
+secondArr = []
+
+while isMet == False:
+    print("r_1: " + str(r_1) + " r_2: " + str(r_2), file=sys.stderr)
+    firstArr.append(r_1)
+    secondArr.append(r_2)
+    if r_1 == r_2:
+        isMet = True
+        print(r_1)
+    elif r_1 in secondArr:
+        isMet = True
+        print(r_1)
+    elif r_2 in firstArr:
+        isMet = True
+        print(r_2)
+    else:
+        r_1 = calcFollowingValue(r_1)
+        r_2 = calcFollowingValue(r_2)
+
+# Write an action using print
+# To debug: print("Debug messages...", file=sys.stderr)
+
+# print("42")
