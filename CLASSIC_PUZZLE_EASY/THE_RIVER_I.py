@@ -56,19 +56,19 @@ Output
 import sys
 import math
 
+
 # Auto-generated code below aims at helping you parse
 # the standard input according to the problem statement.
 
-maxValue = 20000000
-
+# maxValue = 20000000
 
 def calcFollowingValue(val):
-    val = str(val)
-    digits = list(val)
+    valStr = str(val)
+    digits = list(valStr)
     # print(digits, file=sys.stderr)
     for i in range(len(digits)):
         digits[i] = int(digits[i])
-    return int(val) + sum(digits)
+    return val + sum(digits)
 
 
 r_1 = int(input())
@@ -76,25 +76,26 @@ r_2 = int(input())
 
 isMet = False
 
-firstArr = []
-secondArr = []
+# firstArr = []
+# secondArr = []
 
 while isMet == False:
-    print("r_1: " + str(r_1) + " r_2: " + str(r_2), file=sys.stderr)
-    firstArr.append(r_1)
-    secondArr.append(r_2)
+    # print("r_1: " + str(r_1) + " r_2: " + str(r_2), file=sys.stderr)
     if r_1 == r_2:
         isMet = True
         print(r_1)
-    elif r_1 in secondArr:
-        isMet = True
-        print(r_1)
-    elif r_2 in firstArr:
-        isMet = True
-        print(r_2)
+    # elif r_1 in secondArr:
+    # isMet = True
+    # print(r_1)
+    # elif r_2 in firstArr:
+    # isMet = True
+    # print(r_2)
+    elif r_1 > r_2:
+        r_2 = calcFollowingValue(r_2)
+        # secondArr.append(r_2)
     else:
         r_1 = calcFollowingValue(r_1)
-        r_2 = calcFollowingValue(r_2)
+        # firstArr.append(r_1)
 
 # Write an action using print
 # To debug: print("Debug messages...", file=sys.stderr)
