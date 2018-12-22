@@ -34,3 +34,31 @@ Constraints
 
 '''
 
+import sys
+import math
+
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
+
+n = int(input())
+horses = []
+answer = 10000000
+
+for i in range(n):
+    pi = int(input())
+    # print(pi, file=sys.stderr)
+    horses.append(pi)
+
+horses.sort()
+answer = max(horses)
+
+for h in range(len(horses) - 1):
+    dif = abs(horses[h] - horses[h + 1])
+    if dif < answer:
+        answer = dif
+
+# Write an action using print
+# To debug: print("Debug messages...", file=sys.stderr)
+
+
+print(answer)
