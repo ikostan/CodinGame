@@ -15,7 +15,7 @@ Easy Puzzle (Python 3)
 * [Horse-racing Duals](https://www.codingame.com/ide/puzzle/horse-racing-duals)
 * [MIME Type](https://www.codingame.com/ide/puzzle/mime-type)
 
-![GitHub Logo](/images/logo.png)
+![CodinGame Logo](http://www.impact-north-america.com/wp-content/uploads/2017/10/codingame.jpg)
 Format: ![Alt Text](url)
 
 
