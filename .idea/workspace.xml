@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dddc763-7629-4ba3-a9bd-8a346f491182" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/ASCII_ART.py" beforeDir="false" afterPath="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/ASCII_ART.py" afterDir="false" />
-    </list>
+    <list default="true" id="0dddc763-7629-4ba3-a9bd-8a346f491182" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,16 +10,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/ASCII_ART.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1081">
-              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="-368">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="e#1517#1527#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/CHUCK_NORRIS.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -45,10 +48,11 @@
         <option value="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/TEMPERATURES.py" />
         <option value="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/MARS_LANDER_EPISODE_1.py" />
         <option value="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/ASCII_ART.py" />
+        <option value="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/CHUCK_NORRIS.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -183,13 +187,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/ASCII_ART.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="-368">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="e#1517#1527#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/CHUCK_NORRIS.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
