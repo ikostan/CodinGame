@@ -1,4 +1,3 @@
-![alt text](https://logonoid.com/images/thumbs/codingame-logo.png)
 # CodinGame puzzles and solutions
 
 Those are my Python3 solutions for CodinGame puzzles
@@ -15,4 +14,8 @@ Easy Puzzle (Python 3)
 * [Chuck Norris](https://www.codingame.com/training/easy/chuck-norris)
 * [Horse-racing Duals](https://www.codingame.com/ide/puzzle/horse-racing-duals)
 * [MIME Type](https://www.codingame.com/ide/puzzle/mime-type)
+
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
 
