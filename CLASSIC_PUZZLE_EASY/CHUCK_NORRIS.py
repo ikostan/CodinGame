@@ -53,3 +53,43 @@ So CC is coded as: 0 0 00 0000 0 000 00 0000 0 00
 
 '''
 
+import sys
+import math
+
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
+
+message = input()
+#message = 'Chuck Norris\' keyboard has 2 keys: 0 and white space.'
+
+binaryMessage = ''
+#print(message, file=sys.stderr)
+
+for t in message:
+    # print(bin(ord(t))[2:], file=sys.stderr)
+    binaryMessage += bin(ord(t))[2:]
+    if len(binaryMessage) < 7:
+        binaryMessage = '0' + binaryMessage
+
+#print(binaryMessage, file=sys.stderr)
+
+# Write an action using print
+# To debug: print("Debug messages...", file=sys.stderr)
+
+result = ''
+
+for i in range(len(binaryMessage)):
+    if i == 0:
+        if binaryMessage[i] == '1':
+            result += '0 0'
+        else:
+            result += '00 0'
+    elif binaryMessage[i] != binaryMessage[i - 1]:
+        if binaryMessage[i] == '1':
+            result += ' 0 0'
+        else:
+            result += ' 00 0'
+    else:
+        result += '0'
+
+print(result)
