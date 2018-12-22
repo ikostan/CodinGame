@@ -1,3 +1,4 @@
+![alt text](http://www.isai.fr/data/actualites_d0695/fiche/193/fiche_logo_carre_codingame_cd06a.png)
 # CodinGame puzzles and solutions
 
 Those are my Python3 solutions for CodinGame puzzles
