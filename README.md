@@ -14,6 +14,7 @@ Easy Puzzle (Python 3)
 * [Chuck Norris](https://www.codingame.com/training/easy/chuck-norris)
 * [Horse-racing Duals](https://www.codingame.com/ide/puzzle/horse-racing-duals)
 * [MIME Type](https://www.codingame.com/ide/puzzle/mime-type)
+* [Defibrillators](https://www.codingame.com/ide/puzzle/defibrillators)
 
 ![CodinGame Logo](https://logonoid.com/images/thumbs/codingame-logo.png)
 
