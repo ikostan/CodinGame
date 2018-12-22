@@ -2,6 +2,8 @@
 
 Those are my Python3 solutions for CodinGame puzzles
 
+![For more info please visit CodinGame website](https://www.codingame.com)
+
 Easy Puzzle (Python 3)
 -----------
 * [The Descent](https://www.codingame.com/training/easy/the-descent)
@@ -14,6 +16,6 @@ Easy Puzzle (Python 3)
 * [MIME Type](https://www.codingame.com/ide/puzzle/mime-type)
 
 ![CodinGame Logo](http://www.impact-north-america.com/wp-content/uploads/2017/10/codingame.jpg)
-![For more info please visit](https://www.codingame.com)
+
 
 
