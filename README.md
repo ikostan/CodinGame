@@ -13,4 +13,5 @@ Easy Puzzle (Python 3)
 * [ASCII Art](https://www.codingame.com/training/easy/ascii-art)
 * [Chuck Norris](https://www.codingame.com/training/easy/chuck-norris)
 * [Horse-racing Duals](https://www.codingame.com/ide/puzzle/horse-racing-duals)
+* [MIME Type](https://www.codingame.com/ide/puzzle/mime-type)
 

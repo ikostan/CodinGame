@@ -59,5 +59,56 @@ There are no spaces in the file names, extensions or MIME types.
 
 '''
 
+import sys
+import math
+
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
+
+n = int(input())  # Number of elements which make up the association table.
+q = int(input())  # Number Q of file names to be analyzed.
+
+types = []
+for i in range(n):
+    # ext: file extension
+    # mt: MIME type.
+    ext, mt = input().split()
+    types.append(['.' + ext.lower(), mt])
+
+#types.sort()
+#print(types, file=sys.stderr)
+
+#files = []
+#results = []
+for i in range(q):
+    fname = input()  # One file name per line.
+    #files.append(fname)
+    #print(fname, file=sys.stderr)
+    isDetected = False
+    fname = fname.lower()
+    for typeF in types:
+        if typeF[0] in fname:
+            #results.append(typeF[1])
+            extLen = len(typeF[0])
+            #print(fname[-extLen:].lower(), file=sys.stderr)
+            if fname[-extLen:] == typeF[0]:
+                isDetected = True
+                #print(fname, file=sys.stderr)
+                print(typeF[1])
+                break
+    if isDetected == False:
+        #results.append('UNKNOWN')
+        #print(fname, file=sys.stderr)
+        print('UNKNOWN')
+
+
+# Write an action using print
+# To debug: print("Debug messages...", file=sys.stderr)
+
+
+# For each of the Q filenames, display on a line the corresponding MIME type. If there is no corresponding type, then display UNKNOWN.
+#for i in results:
+    #print(i)
+
 
 
