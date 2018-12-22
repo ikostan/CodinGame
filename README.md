@@ -2,7 +2,7 @@
 
 Those are my Python3 solutions for CodinGame puzzles
 
-![For more info please visit CodinGame website](https://www.codingame.com)
+[For more info please visit CodinGame website](https://www.codingame.com)
 
 Easy Puzzle (Python 3)
 -----------
