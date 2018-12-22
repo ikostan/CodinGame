@@ -1,4 +1,4 @@
-# CodinGame
+# CodinGame puzzles and solutions
 
 This is my Python3 solutions for CodinGame puzzles
 
