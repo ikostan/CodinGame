@@ -18,6 +18,7 @@ Easy Puzzle (Python 3)
 |7    |[Horse-racing Duals](https://www.codingame.com/ide/puzzle/horse-racing-duals)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/HORSE_RACING_DUALS.py)|
 |8    |[MIME Type](https://www.codingame.com/ide/puzzle/mime-type)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/MIME_TYPE.py)|
 |9    |[Defibrillators](https://www.codingame.com/ide/puzzle/defibrillators)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/DEFIBRILLATORS.py)|
+|10   |[The River I](https://www.codingame.com/ide/puzzle/the-river-i-)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/THE_RIVER_I.py)|
 
 ![CodinGame Logo](https://logonoid.com/images/thumbs/codingame-logo.png)
 
