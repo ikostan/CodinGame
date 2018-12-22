@@ -42,7 +42,7 @@ import math
 
 n = int(input())
 horses = []
-answer = 10000000
+#answer = 10000000
 
 for i in range(n):
     pi = int(input())
