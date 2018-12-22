@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dddc763-7629-4ba3-a9bd-8a346f491182" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/DEFIBRILLATORS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/DEFIBRILLATORS.py" beforeDir="false" afterPath="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/DEFIBRILLATORS.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +27,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/DEFIBRILLATORS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="451">
+              <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+              <folding>
+                <element signature="e#1660#1670#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -265,8 +268,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/DEFIBRILLATORS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="451">
+          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="e#1660#1670#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
