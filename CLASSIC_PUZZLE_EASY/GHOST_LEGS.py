@@ -122,28 +122,74 @@ ghost['col'] = col
 ghost['ghostName'] = ghostName
 ghost['ghostFinish'] = ghostFinish
 
-
 # Ghost functions
-def moveLeft(ghost, inputChars):
-    if ghost['col'] - 1 >= 0:
-        if inputChars[ghost['row']][ghost['col'] - 1] == '-':
-            ghost['col'] -= 1
-            return True
-    return False
+turnsHistory = {'leftTurn': False, 'rightTurn': False}
 
 
-def moveRight(w, ghost, inputChars):
-    if ghost['col'] + 1 <= w:
-        if inputChars[ghost['row']][ghost['col'] + 1] == '-':
-            ghost['col'] += 1
-            return True
-    return False
-
-
-def moveDown(h, ghost, inputChars):
+def moveDown(h, ghost, inputChars, turnsHistory):
     if ghost['row'] + 1 <= h:
         ghost['row'] += 1
+        turnsHistory['leftTurn'] = False
+        turnsHistory['rightTurn'] = False
+        print("DOWN", file=sys.stderr)
+        # print(str(turnsHistory['leftTurn']) + " : " + str(turnsHistory['rightTurn']), file=sys.stderr)
         return True
     return False
+
+
+def moveLeft(ghost, inputChars, turnsHistory):
+    if ghost['col'] - 3 >= 0:
+        # print(str(turnsHistory['leftTurn']) + " : " + str(turnsHistory['rightTurn']), file=sys.stderr)
+        if inputChars[ghost['row']][ghost['col'] - 1] == '-' and turnsHistory['leftTurn'] == False:
+            ghost['col'] -= 3
+            turnsHistory['leftTurn'] = True
+            turnsHistory['rightTurn'] = True
+            print("LEFT", file=sys.stderr)
+            # print(str(turnsHistory['leftTurn']) + " : " + str(turnsHistory['rightTurn']), file=sys.stderr)
+            return True
+    return False
+
+
+def moveRight(w, ghost, inputChars, turnsHistory):
+    if ghost['col'] + 3 <= w:
+        # print(str(turnsHistory['leftTurn']) + " : " + str(turnsHistory['rightTurn']), file=sys.stderr)
+        if inputChars[ghost['row']][ghost['col'] + 1] == '-' and turnsHistory['rightTurn'] == False:
+            ghost['col'] += 3
+            turnsHistory['leftTurn'] = True
+            turnsHistory['rightTurn'] = True
+            print("RIGHT", file=sys.stderr)
+            # print(str(turnsHistory['leftTurn']) + " : " + str(turnsHistory['rightTurn']), file=sys.stderr)
+            return True
+    return False
+
+
+def makeMove(w, h, ghost, inputChars, ghostFinishes, turnsHistory):
+    # print(inputChars[ghost['row']][ghost['col']], file=sys.stderr)
+
+    if inputChars[ghost['row']][ghost['col']] in ghostFinishes:
+        ghost['ghostFinish'] = inputChars[ghost['row']][ghost['col']]
+        return False
+
+    if moveLeft(ghost, inputChars, turnsHistory):
+        return True
+
+    if moveRight(w, ghost, inputChars, turnsHistory):
+        return True
+
+    if moveDown(h, ghost, inputChars, turnsHistory):
+        return True
+
+
+for item in inputChars[0]:
+    if item in ghostNames:
+        ghost['ghostName'] = item
+        ghost['row'] = 0
+        ghost['col'] = inputChars[0].index(item)
+
+        isTrue = True
+        while isTrue == True:
+            isTrue = makeMove(w, h, ghost, inputChars, ghostFinishes, turnsHistory)
+
+        print(ghost['ghostName'] + ghost['ghostFinish'])
 
 # print(ghostName + ghostFinish)
