@@ -73,3 +73,66 @@ B1
 C3
 
 '''
+
+import sys
+import math
+
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
+
+w, h = [int(i) for i in input().split()]
+
+# print('w: ' + str(w), file=sys.stderr)
+# print('h: ' + str(h), file=sys.stderr)
+
+inputChars = []  # Holds diagram data
+
+for i in range(h):
+    line = input()
+    # print(line, file=sys.stderr)
+    inputChars.append(line)
+
+# Write an action using print
+# To debug: print("Debug messages...", file=sys.stderr)
+
+# All possible ghost names
+ghostNames = []
+for name in inputChars[0]:
+    if name != ' ':
+        ghostNames.append(name)
+# print(ghostNames, file=sys.stderr)
+
+# All possible ghost end points
+ghostFinishes = []
+for finish in inputChars[h - 1]:
+    if finish != ' ':
+        ghostFinishes.append(finish)
+# print(ghostFinishes, file=sys.stderr)
+
+# Ghost initial data
+row = 0
+col = 0
+ghostName = ''
+ghostFinish = ''
+
+# Ghost entity
+ghost = {}
+ghost['row'] = row
+ghost['col'] = col
+ghost['ghostName'] = ghostName
+ghost['ghostFinish'] = ghostFinish
+
+
+# Ghost functions
+def moveLeft(w, ghost):
+    return false
+
+
+def moveRight(w, ghost):
+    return false
+
+
+def moveDown(h, ghost):
+    return false
+
+# print(ghostName + ghostFinish)
