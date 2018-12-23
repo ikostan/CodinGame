@@ -45,12 +45,12 @@ import math
 # Auto-generated code below aims at helping you parse
 # the standard input according to the problem statement.
 
-maxValue = 100000
+# maxValue = 100000
 tested = {}
 
 
 def calcFollowingValue(val):
-    print(val, file=sys.stderr)
+    # print(val, file=sys.stderr)
     valStr = str(val)
     digits = list(valStr)
     # print(digits, file=sys.stderr)
@@ -60,13 +60,12 @@ def calcFollowingValue(val):
 
 
 # the maximum number of steps any river advances is (length_of_number)*9
-def calcMaxSteps(num):
-    return num * 9
-
+# def calcMaxSteps(num):
+# return num * 9
 
 r_1 = int(input())
-print("r_1: " + str(r_1), file=sys.stderr)
-print("Max steps: " + str(calcMaxSteps(r_1)), file=sys.stderr)
+# print("r_1: " + str(r_1), file=sys.stderr)
+# print("Max steps: " + str(calcMaxSteps(r_1)), file=sys.stderr)
 
 result = 'NO'
 
@@ -87,4 +86,3 @@ print(result)
 
 # Write an action using print
 # To debug: print("Debug messages...", file=sys.stderr)
-
