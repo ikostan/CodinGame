@@ -19,6 +19,7 @@ Easy Puzzle (Python 3)
 |8    |[MIME Type](https://www.codingame.com/ide/puzzle/mime-type)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/MIME_TYPE.py)|
 |9    |[Defibrillators](https://www.codingame.com/ide/puzzle/defibrillators)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/DEFIBRILLATORS.py)|
 |10   |[The River I](https://www.codingame.com/ide/puzzle/the-river-i-)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/THE_RIVER_I.py)|
+|11   |[The River II](https://www.codingame.com/ide/puzzle/the-river-ii-)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/THE_RIVER_II.py)|
 
 ![CodinGame Logo](https://logonoid.com/images/thumbs/codingame-logo.png)
 

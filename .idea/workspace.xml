@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dddc763-7629-4ba3-a9bd-8a346f491182" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/THE_RIVER_II.py" beforeDir="false" afterPath="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/THE_RIVER_II.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,26 +12,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="420">
-                <caret line="20" column="166" selection-start-line="20" selection-start-column="166" selection-end-line="20" selection-end-column="166" />
+              <first_editor relative-caret-position="441">
+                <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/THE_RIVER_II.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
-              <folding>
-                <element signature="e#1081#1091#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -63,8 +51,8 @@
         <option value="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/DEFIBRILLATORS.py" />
         <option value="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/GRAVITY_TUMBLER.py" />
         <option value="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/THE_RIVER_I.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/THE_RIVER_II.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -276,16 +264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="420">
-            <caret line="20" column="166" selection-start-line="20" selection-start-column="166" selection-end-line="20" selection-end-column="166" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/THE_RIVER_I.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -298,11 +276,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/THE_RIVER_II.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="462">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#1081#1091#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="441">
+            <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
