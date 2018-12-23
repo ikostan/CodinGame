@@ -38,3 +38,53 @@ Output
 NO
 
 '''
+
+import sys
+import math
+
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
+
+maxValue = 100000
+
+
+def calcFollowingValue(val):
+    valStr = str(val)
+    digits = list(valStr)
+    # print(digits, file=sys.stderr)
+    for i in range(len(digits)):
+        digits[i] = int(digits[i])
+    return val + sum(digits)
+
+
+def compareNumbers(r_1, nextVal):
+    if r_1 == nextVal:
+        return True
+    elif r_1 < nextVal:
+        return False
+    else:
+        return compareNumbers(r_1, calcFollowingValue(nextVal))
+
+
+r_1 = int(input())
+print("r_1: " + str(r_1), file=sys.stderr)
+
+isTested = False
+
+result = 'NO'
+testedNumber = 1
+
+i = r_1 - 1
+
+while i > 0:
+    print(i, file=sys.stderr)
+    if compareNumbers(r_1, i):
+        result = 'YES'
+        break
+    i -= 1
+
+print(result)
+
+# Write an action using print
+# To debug: print("Debug messages...", file=sys.stderr)
+
