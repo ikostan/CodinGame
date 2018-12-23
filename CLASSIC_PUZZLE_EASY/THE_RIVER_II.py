@@ -46,9 +46,11 @@ import math
 # the standard input according to the problem statement.
 
 maxValue = 100000
+tested = {}
 
 
 def calcFollowingValue(val):
+    print(val, file=sys.stderr)
     valStr = str(val)
     digits = list(valStr)
     # print(digits, file=sys.stderr)
@@ -57,31 +59,29 @@ def calcFollowingValue(val):
     return val + sum(digits)
 
 
-def compareNumbers(r_1, nextVal):
-    if r_1 == nextVal:
-        return True
-    elif r_1 < nextVal:
-        return False
-    else:
-        return compareNumbers(r_1, calcFollowingValue(nextVal))
+# the maximum number of steps any river advances is (length_of_number)*9
+def calcMaxSteps(num):
+    return num * 9
 
 
 r_1 = int(input())
 print("r_1: " + str(r_1), file=sys.stderr)
-
-isTested = False
+print("Max steps: " + str(calcMaxSteps(r_1)), file=sys.stderr)
 
 result = 'NO'
-testedNumber = 1
 
-i = r_1 - 1
+for b in range(1, r_1):
+    tested[b] = False
 
-while i > 0:
-    print(i, file=sys.stderr)
-    if compareNumbers(r_1, i):
-        result = 'YES'
-        break
-    i -= 1
+for i in range(1, r_1):
+    if tested[i] == False:
+        tested[i] == True
+        test = calcFollowingValue(i)
+        if test == r_1:
+            result = 'YES'
+            break
+        else:
+            continue
 
 print(result)
 
