@@ -124,15 +124,26 @@ ghost['ghostFinish'] = ghostFinish
 
 
 # Ghost functions
-def moveLeft(w, ghost):
-    return false
+def moveLeft(ghost, inputChars):
+    if ghost['col'] - 1 >= 0:
+        if inputChars[ghost['row']][ghost['col'] - 1] == '-':
+            ghost['col'] -= 1
+            return True
+    return False
 
 
-def moveRight(w, ghost):
-    return false
+def moveRight(w, ghost, inputChars):
+    if ghost['col'] + 1 <= w:
+        if inputChars[ghost['row']][ghost['col'] + 1] == '-':
+            ghost['col'] += 1
+            return True
+    return False
 
 
-def moveDown(h, ghost):
-    return false
+def moveDown(h, ghost, inputChars):
+    if ghost['row'] + 1 <= h:
+        ghost['row'] += 1
+        return True
+    return False
 
 # print(ghostName + ghostFinish)
