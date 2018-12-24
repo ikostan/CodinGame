@@ -69,8 +69,13 @@ def removeBrkt(arr, exp):
         i -= 1
 
 
-while len(exp) > 0:
+expChanged = True
+counter = 1
 
+while len(exp) > 0 and expChanged == True:
+
+    print("Counter: " + str(counter) + " Flag: " + str(expChanged), file=sys.stderr)
+    expChanged = False
     print(exp, file=sys.stderr)
     i = 0
     arr = []
@@ -80,16 +85,20 @@ while len(exp) > 0:
         b = i + 1
         pair = findPare(exp[i])
 
-        while b <= len(exp):
+        while b < len(exp):
             if exp[b] == pair:
                 print("Found pair: " + exp[i] + " " + exp[b], file=sys.stderr)
                 print("i: " + str(i) + " b: " + str(b), file=sys.stderr)
                 arr.append(b)
+                expChanged = True
                 removeBrkt(arr, exp)
                 break
             b += 1
     else:
+        expChanged = True
         removeBrkt(arr, exp)
+
+    counter += 1
 
 if len(exp) > 0:
     print("false")
