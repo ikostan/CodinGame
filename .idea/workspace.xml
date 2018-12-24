@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dddc763-7629-4ba3-a9bd-8a346f491182" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/BRACKETS_EXTREME_EDITION.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/BRACKETS_EXTREME_EDITION.py" beforeDir="false" afterPath="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/BRACKETS_EXTREME_EDITION.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +27,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/BRACKETS_EXTREME_EDITION.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="451">
+              <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+              <folding>
+                <element signature="e#614#624#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -314,8 +317,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/BRACKETS_EXTREME_EDITION.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="451">
+          <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+          <folding>
+            <element signature="e#614#624#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
