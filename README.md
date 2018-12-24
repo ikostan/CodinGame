@@ -22,6 +22,7 @@ Easy Puzzle (Python 3)
 |11   |[The River II](https://www.codingame.com/ide/puzzle/the-river-ii-)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/THE_RIVER_II.py)|
 |12   |[Ghost Legs](https://www.codingame.com/ide/puzzle/ghost-legs)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/GHOST_LEGS.py)|
 |13   |[Brackets, extreme edition](https://www.codingame.com/ide/puzzle/brackets-extreme-edition)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/BRACKETS_EXTREME_EDITION.py)|
+|14   |[Jack Silver: The Casino](https://www.codingame.com/ide/puzzle/jack-silver-the-casino)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/JACK_SILVER_THE_CASINO.py)|
 
 ![CodinGame Logo](https://logonoid.com/images/thumbs/codingame-logo.png)
 
