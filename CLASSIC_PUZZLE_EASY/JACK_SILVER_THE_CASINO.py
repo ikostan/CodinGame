@@ -119,3 +119,74 @@ Output
 1153
 
 '''
+
+import sys
+import math
+
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
+
+rounds = int(input())
+print("rounds: " + str(rounds), file=sys.stderr)
+
+cash = int(input())
+print("cash: " + str(cash), file=sys.stderr)
+
+player = {'cash': cash}
+
+
+def calcCash(sysInput, player):
+    # He always bets 1/4 of the cash he currently has.
+    # If it is a fractional value, he always rounds up.
+    bet = math.ceil(float(player['cash']) / 4.)
+
+    # an integer, BALL, which represents the roulette table result
+    BALL = int(sysInput[0])
+
+    # a string, CALL, which represents the call the target made
+    CALL = sysInput[1]
+
+    # 1
+    if CALL == 'EVEN':
+        if BALL % 2 > 0:
+            # If he called EVEN, then he would lose his 100 bet.
+            player['cash'] = player['cash'] - bet
+        else:
+            # Win
+            player['cash'] = player['cash'] + bet
+            # 2
+    if CALL == 'ODD':
+        if BALL % 2 > 0:
+            # If he called ODD, then he would get his 100 bet back, plus an extra 100.
+            player['cash'] = player['cash'] + bet
+        else:
+            # Lost
+            player['cash'] = player['cash'] - bet
+            # 3
+    if CALL == 'PLAIN':
+
+        # (optional) an optional integer, NUMBER,
+        # which represents the selected number when the target's call is PLAIN
+        NUMBER = int(sysInput[2])
+
+        if NUMBER == BALL:
+            # If he called PLAIN and specified 23 as his number,
+            # he would get back his 100 bet plus an extra 3500.
+            player['cash'] = player['cash'] + 3500
+        else:
+            # If he called PLAIN and specified any number other than 23,
+            # he would lose his 100 bet.
+            player['cash'] = player['cash'] - bet
+
+
+for i in range(rounds):
+    play = input()
+    print("play: " + play, file=sys.stderr)
+    sysInput = play.split(' ')
+    calcCash(sysInput, player)
+
+# Write an action using print
+# To debug: print("Debug messages...", file=sys.stderr)
+
+# The amount of money, MONEY, the target has after ROUNDS of playing
+print(player['cash'])

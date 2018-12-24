@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dddc763-7629-4ba3-a9bd-8a346f491182" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/JACK_SILVER_THE_CASINO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/JACK_SILVER_THE_CASINO.py" beforeDir="false" afterPath="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/JACK_SILVER_THE_CASINO.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +27,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/JACK_SILVER_THE_CASINO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="451">
+              <caret line="191" column="21" selection-start-line="191" selection-start-column="21" selection-end-line="191" selection-end-column="21" />
+              <folding>
+                <element signature="e#2582#2592#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -344,8 +347,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/JACK_SILVER_THE_CASINO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="451">
+          <caret line="191" column="21" selection-start-line="191" selection-start-column="21" selection-end-line="191" selection-end-column="21" />
+          <folding>
+            <element signature="e#2582#2592#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
