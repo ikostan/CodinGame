@@ -139,6 +139,7 @@ def calcCash(sysInput, player):
     # He always bets 1/4 of the cash he currently has.
     # If it is a fractional value, he always rounds up.
     bet = math.ceil(float(player['cash']) / 4.)
+    # player['cash'] = player['cash'] - bet
     print("bet: " + str(bet), file=sys.stderr)
 
     # an integer, BALL, which represents the roulette table result
@@ -152,9 +153,13 @@ def calcCash(sysInput, player):
 
     # 1
     if CALL == 'EVEN':
-        # print("even>", file=sys.stderr)
-        if BALL % 2 > 0:
-            # If he called EVEN, then he would lose his 100 bet.
+        print("even>", file=sys.stderr)
+
+        # 0 is not even
+        if BALL == 0:
+            player['cash'] = player['cash'] - bet
+        elif BALL % 2 > 0:
+            # If he called EVEN, then he would lose his bet.
             player['cash'] = player['cash'] - bet
         else:
             # Win
@@ -162,13 +167,16 @@ def calcCash(sysInput, player):
             # 2
     if CALL == 'ODD':
         # print("odd>", file=sys.stderr)
+        # 0 is not even
+        # if BALL == 0:
+        # player['cash'] = player['cash'] + bet
         if BALL % 2 > 0:
-            # If he called ODD, then he would get his 100 bet back, plus an extra 100.
+            # If he called ODD, then he would get his bet back, plus an extra bet.
             player['cash'] = player['cash'] + bet
         else:
             # Lost
             player['cash'] = player['cash'] - bet
-            # 3
+    # 3
     if CALL == 'PLAIN':
         # print("plain>", file=sys.stderr)
         # (optional) an optional integer, NUMBER,
@@ -177,13 +185,13 @@ def calcCash(sysInput, player):
 
         if NUMBER == BALL:
             # If he called PLAIN and specified 23 as his number,
-            # he would get back his 100 bet plus an extra bet * 35.
+            # he would get back his bet plus an extra bet * 35.
             # NOTE: Since the odds of winning are much lower for PLAIN bets,
             # the payout for a win is higher: 35 to 1. For EVEN and ODD, the payout is 1 to 1.
             player['cash'] = player['cash'] + (bet * 35)
         else:
             # If he called PLAIN and specified any number other than 23,
-            # he would lose his 100 bet.
+            # he would lose his bet.
             player['cash'] = player['cash'] - bet
 
 
