@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dddc763-7629-4ba3-a9bd-8a346f491182" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/SELF_DRIVING_CAR_TESTING.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/SELF_DRIVING_CAR_TESTING.py" beforeDir="false" afterPath="$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/SELF_DRIVING_CAR_TESTING.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="315">
-                <caret line="24" column="199" selection-start-line="24" selection-start-column="199" selection-end-line="24" selection-end-column="199" />
+              <first_editor relative-caret-position="126">
+                <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -27,8 +28,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/SELF_DRIVING_CAR_TESTING.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="451">
+              <caret line="162" column="17" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="17" />
+              <folding>
+                <element signature="e#1275#1285#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,7 +164,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1817502" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12565444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -346,8 +350,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="24" column="199" selection-start-line="24" selection-start-column="199" selection-end-line="24" selection-end-column="199" />
+          <first_editor relative-caret-position="126">
+            <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           </first_editor>
           <second_editor />
         </state>
@@ -355,8 +359,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CLASSIC_PUZZLE_EASY/SELF_DRIVING_CAR_TESTING.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="451">
+          <caret line="162" column="17" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="17" />
+          <folding>
+            <element signature="e#1275#1285#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

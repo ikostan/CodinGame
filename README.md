@@ -4,9 +4,8 @@ Those are my Python3 solutions for CodinGame puzzles
 
 [For more info please visit CodinGame website](https://www.codingame.com)
 
-Easy Puzzle (Python 3)
+Easy Completed Puzzles (Python 3)
 -----------
-## Completed Puzzles
 | No. | Puzzle Name                                                                                                     | GitHub Link |
 |-----|-----------------------------------------------------------------------------------------------------------------|-------------|
 |1    |[The Descent](https://www.codingame.com/training/easy/the-descent) |[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/THE_DESCENT.py)|
