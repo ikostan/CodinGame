@@ -4,7 +4,7 @@ Those are my Python3 solutions for CodinGame puzzles
 
 [For more info please visit CodinGame website](https://www.codingame.com)
 
-Completed Puzzles (Easy Level, Python 3)
+### Completed Puzzles (Easy Level, Python 3)
 
 | No. | Puzzle Name                                                                                                     | GitHub Link |
 |-----|-----------------------------------------------------------------------------------------------------------------|-------------|
