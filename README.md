@@ -22,6 +22,7 @@ Easy Completed Puzzles (Python 3)
 |12   |[Ghost Legs](https://www.codingame.com/ide/puzzle/ghost-legs)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/GHOST_LEGS.py)|
 |13   |[Brackets, extreme edition](https://www.codingame.com/ide/puzzle/brackets-extreme-edition)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/BRACKETS_EXTREME_EDITION.py)|
 |14   |[Jack Silver: The Casino](https://www.codingame.com/ide/puzzle/jack-silver-the-casino)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/JACK_SILVER_THE_CASINO.py)|
+|15   |[Self-driving car testing](https://www.codingame.com/ide/puzzle/self-driving-car-testing)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/SELF_DRIVING_CAR_TESTING.py)|
 
 ![CodinGame Logo](https://logonoid.com/images/thumbs/codingame-logo.png)
 
