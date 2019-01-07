@@ -22,7 +22,6 @@ bca <- def
 Repeat by taking more and more characters then complete with what remains:
 ghi -> bcadef
 
-
 Some messages have been transformed using the above method more than once.
 
 Your job here is to decode or encode the messages to discuss with aliens.
@@ -47,3 +46,4 @@ Output
 abcdefghi
 
 '''
+
