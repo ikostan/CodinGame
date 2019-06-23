@@ -41,6 +41,27 @@ pip install virtualenv
 ```bash 
 virtualenv venv --python=python
 ```
+
+### How to delete multiples files in Git:
+
+- In the command-line, navigate to your local repository.
+- Ensure you are in the default branch:<br/> 
+```bash 
+git checkout master
+```
+- The rm -r command will recursively remove your folder:<br/> 
+```bash 
+git rm -r folder-name
+```
+- Commit the change:<br/> 
+```bash 
+git commit -m "Remove duplicated directory"
+```
+- Push the change to your remote repository:<br/> 
+```bash 
+git push origin master
+```
+
 ### More help:
 [pip nstallation and upgrade](https://pip.pypa.io/en/stable/installing/)
 
