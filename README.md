@@ -26,5 +26,23 @@ Those are my Python3 solutions for CodinGame puzzles
 
 ![CodinGame Logo](https://logonoid.com/images/thumbs/codingame-logo.png)
 
+### Setting up Python3 virtual environment on Windows machine:
+
+1. open CMD
+2. navigate to project directory, for example:<br/> 
+```bash
+cd C:\Users\superadmin\Desktop\Python\CodinGame
+```
+3. run following command:<br/> 
+```bash 
+pip install virtualenv
+```
+4. run following command:<br/> 
+```bash 
+virtualenv venv --python=python
+```
+### More help:
+[pip nstallation and upgrade](https://pip.pypa.io/en/stable/installing/)
+
 
 
