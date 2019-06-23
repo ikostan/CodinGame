@@ -4,6 +4,7 @@ Those are my Python3 solutions for CodinGame puzzles
 [For more info please visit CodinGame website](https://www.codingame.com)
 
 ### Completed Puzzles (Easy Level, Python 3)
+<p align="center">
 
 | No. | Puzzle Name                                                                                                     | GitHub Link |
 |-----|-----------------------------------------------------------------------------------------------------------------|-------------|
@@ -23,6 +24,7 @@ Those are my Python3 solutions for CodinGame puzzles
 |14   |[Jack Silver: The Casino](https://www.codingame.com/ide/puzzle/jack-silver-the-casino)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/JACK_SILVER_THE_CASINO.py)|
 |15   |[Self-driving car testing](https://www.codingame.com/ide/puzzle/self-driving-car-testing)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/SELF_DRIVING_CAR_TESTING/)|
 
+</p>
 ### Setting up Python3 virtual environment on Windows machine:
 
 1. open CMD
