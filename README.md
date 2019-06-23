@@ -8,7 +8,7 @@ Those are my Python3 solutions for CodinGame puzzles
 
 | No. | Puzzle Name                                                                                                     | GitHub Link |
 |-----|-----------------------------------------------------------------------------------------------------------------|-------------|
-|1    |[The Descent](https://www.codingame.com/training/easy/the-descent) |[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/THE_DESCENT.py)|
+|1    |[The Descent](https://www.codingame.com/training/easy/the-descent) |[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/THE_DESCENT/THE_DESCENT.py)|
 |2    |[Power of Thor - Episode 1](https://www.codingame.com/training/easy/power-of-thor-episode-1)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/POWER_OF_THOR_EPISODE_1.py)|
 |3    |[Mars Lander - Level 1](https://www.codingame.com/training/easy/mars-lander-episode-1)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/MARS_LANDER_EPISODE_1.py)|
 |4    |[Temperatures](https://www.codingame.com/training/easy/temperatures)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/TEMPERATURES.py)|
@@ -22,7 +22,7 @@ Those are my Python3 solutions for CodinGame puzzles
 |12   |[Ghost Legs](https://www.codingame.com/ide/puzzle/ghost-legs)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/GHOST_LEGS.py)|
 |13   |[Brackets, extreme edition](https://www.codingame.com/ide/puzzle/brackets-extreme-edition)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/BRACKETS_EXTREME_EDITION.py)|
 |14   |[Jack Silver: The Casino](https://www.codingame.com/ide/puzzle/jack-silver-the-casino)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/JACK_SILVER_THE_CASINO.py)|
-|15   |[Self-driving car testing](https://www.codingame.com/ide/puzzle/self-driving-car-testing)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/SELF_DRIVING_CAR_TESTING.py)|
+|15   |[Self-driving car testing](https://www.codingame.com/ide/puzzle/self-driving-car-testing)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/SELF_DRIVING_CAR_TESTING/SELF_DRIVING_CAR_TESTING.py)|
 
 ![CodinGame Logo](https://logonoid.com/images/thumbs/codingame-logo.png)
 
