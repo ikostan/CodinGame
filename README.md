@@ -60,9 +60,5 @@ git push origin master
 ```
 
 ### More help:
-[pip nstallation and upgrade](https://pip.pypa.io/en/stable/installing/)
+[pip nstallation and upgrade](https://pip.pypa.io/en/stable/installing/)<br/>
 ![CodinGame Logo](https://github.com/ikostan/CodinGame/blob/master/codingame_img.png)
-
-
-
-
