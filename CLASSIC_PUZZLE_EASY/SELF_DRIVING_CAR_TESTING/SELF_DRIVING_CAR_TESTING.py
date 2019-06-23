@@ -49,6 +49,7 @@ Output
 
 '''
 
+
 import sys
 import math
 
@@ -56,20 +57,18 @@ import math
 # the standard input according to the problem statement.
 
 n = int(input())
-# print("n: " + str(n), file=sys.stderr)
+# print("n: " + str(n), file=sys.stderr) #  debug only
 
-xthen_commands = input()
-print("xthen_commands: " + str(xthen_commands), file=sys.stderr)
+x_then_commands = input()
+# print("x_then_commands: " + str(xthen_commands), file=sys.stderr) #  debug only
 
-roadpattern = []
+road_pattern = []
 
-xthen_commands_arr = xthen_commands.split(';')
+x_then_commands_arr = x_then_commands.split(';')
 
 # Car's initial position
-carPosition = {'iteration': 0, 'carPosition': int(xthen_commands_arr[0]) - 1, 'xthen': xthen_commands_arr[1:]}
-
-
-# print(carPosition['xthen'], file=sys.stderr)
+carPosition = {'iteration': 0, 'carPosition': int(x_then_commands_arr[0]) - 1, 'xthen': x_then_commands_arr[1:]}
+# print(carPosition['xthen'], file=sys.stderr) #  debug only
 
 
 # Extract number from direction string
@@ -144,20 +143,20 @@ def drawRoad(roadpattern):
         repeatN = int(pattern[0])
         for i in range(repeatN):
             # print(pattern[1], file=sys.stderr)
-            drawCar(xthen_commands, pattern[1], carPosition)
+            drawCar(x_then_commands, pattern[1], carPosition)
 
 
 # Main loop - get road data
 for i in range(n):
     rthen_roadpattern = input()
     # print("rthen_roadpattern: " + str(rthen_roadpattern), file=sys.stderr)
-    roadpattern.append(rthen_roadpattern)
+    road_pattern.append(rthen_roadpattern)
 
 # Write an action using print
 # To debug: print("Debug messages...", file=sys.stderr)
 
 
-drawRoad(roadpattern)
-print("Total iterations: " + str(carPosition['iteration']), file=sys.stderr)
+drawRoad(road_pattern)
+#print("Total iterations: " + str(carPosition['iteration']), file=sys.stderr)
 
 # print("answer")
