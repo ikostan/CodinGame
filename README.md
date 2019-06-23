@@ -74,4 +74,4 @@ git commit -m "fixed untracked files"
 <p align="center"> 
 <img src="https://github.com/ikostan/CodinGame/blob/master/codingame_img.png">
 </p>
-<!--![CodinGame Logo](https://github.com/ikostan/CodinGame/blob/master/codingame_img.png?style=centerme)-->
+<!--![CodinGame Logo](https://github.com/ikostan/CodinGame/blob/master/codingame_img.png?style=center)-->
