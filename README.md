@@ -11,7 +11,7 @@ Those are my Python3 solutions for CodinGame puzzles
 |2    |[Power of Thor - Episode 1](https://www.codingame.com/training/easy/power-of-thor-episode-1)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/POWER_OF_THOR_EPISODE_1.py)|
 |3    |[Mars Lander - Level 1](https://www.codingame.com/training/easy/mars-lander-episode-1)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/MARS_LANDER_EPISODE_1.py)|
 |4    |[Temperatures](https://www.codingame.com/training/easy/temperatures)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/TEMPERATURES.py)|
-|5    |[ASCII Art](https://www.codingame.com/training/easy/ascii-art)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/ASCII_ART.py)|
+|5    |[ASCII Art](https://www.codingame.com/training/easy/ascii-art)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/ASCII_ART)|
 |6    |[Chuck Norris](https://www.codingame.com/training/easy/chuck-norris)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/CHUCK_NORRIS.py)|
 |7    |[Horse-racing Duals](https://www.codingame.com/ide/puzzle/horse-racing-duals)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/HORSE_RACING_DUALS.py)|
 |8    |[MIME Type](https://www.codingame.com/ide/puzzle/mime-type)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/MIME_TYPE.py)|
