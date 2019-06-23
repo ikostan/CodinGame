@@ -24,7 +24,7 @@ Those are my Python3 solutions for CodinGame puzzles
 |14   |[Jack Silver: The Casino](https://www.codingame.com/ide/puzzle/jack-silver-the-casino)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/JACK_SILVER_THE_CASINO.py)|
 |15   |[Self-driving car testing](https://www.codingame.com/ide/puzzle/self-driving-car-testing)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/SELF_DRIVING_CAR_TESTING/)|
 
-![CodinGame Logo](https://github.com/ikostan/CodinGame/blob/master/coding_game_img.png)
+![CodinGame Logo](https://github.com/ikostan/CodinGame/blob/master/codingame_img.png)
 ### Setting up Python3 virtual environment on Windows machine:
 
 1. open CMD
