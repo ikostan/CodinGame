@@ -59,6 +59,16 @@ git commit -m "Remove duplicated directory"
 git push origin master
 ```
 
+### How to fix in case .gitignore is ignored by Git:
+Even if you haven't tracked the files so far, Git seems to be able to "know" about them even after you add them to .gitignore.<br/> 
+**NOTE:** First commit your current changes, or you will lose them.<br/> 
+Then run the following commands from the top folder of your Git repository:<br/> 
+```bash 
+git rm -r --cached .
+git add .
+git commit -m "fixed untracked files"
+```
+
 ### More help:
 [pip nstallation and upgrade](https://pip.pypa.io/en/stable/installing/)<br/>
 ![CodinGame Logo](https://github.com/ikostan/CodinGame/blob/master/codingame_img.png)
