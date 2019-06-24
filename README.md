@@ -8,7 +8,7 @@ Those are my Python3 solutions for CodinGame puzzles
 | No. | Puzzle Name                                                                                                     | GitHub Link |
 |-----|-----------------------------------------------------------------------------------------------------------------|-------------|
 |1    |[The Descent](https://www.codingame.com/training/easy/the-descent) |[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/THE_DESCENT/)|
-|2    |[Power of Thor - Episode 1](https://www.codingame.com/training/easy/power-of-thor-episode-1)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/POWER_OF_THOR_EPISODE_1.py)|
+|2    |[Power of Thor - Episode 1](https://www.codingame.com/training/easy/power-of-thor-episode-1)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/POWER_OF_THOR_EPISODE_1)|
 |3    |[Mars Lander - Level 1](https://www.codingame.com/training/easy/mars-lander-episode-1)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/MARS_LANDER_EPISODE_1.py)|
 |4    |[Temperatures](https://www.codingame.com/training/easy/temperatures)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/TEMPERATURES.py)|
 |5    |[ASCII Art](https://www.codingame.com/training/easy/ascii-art)|[Solution](https://github.com/ikostan/CodinGame/blob/master/CLASSIC_PUZZLE_EASY/ASCII_ART)|
