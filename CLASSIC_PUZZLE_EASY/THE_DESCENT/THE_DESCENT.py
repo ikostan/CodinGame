@@ -22,10 +22,7 @@ while True:
             maxH = mountain_h
             index = i
 
-        # print("mountain_h: {0}, maxH: {1}, index: {2}".format(mountain_h, maxH, index), file=sys.stderr)
-
     # Write an action using print
     # To debug: print("Debug messages...", file=sys.stderr)
-
     # The index of the mountain to fire on.
     print(index)
