@@ -1,4 +1,10 @@
 # CodinGame puzzles and solutions
+
+<p align="center"> 
+<img src="https://github.com/ikostan/CodinGame/blob/master/codingame_img.png">
+</p>
+<!--![CodinGame Logo](https://github.com/ikostan/CodinGame/blob/master/codingame_img.png?style=center)-->
+
 Those are my Python3 solutions for CodinGame puzzles
 
 [For more info please visit CodinGame website](https://www.codingame.com)
@@ -71,7 +77,3 @@ git commit -m "fixed untracked files"
 
 ### More help:
 [pip nstallation and upgrade](https://pip.pypa.io/en/stable/installing/)
-<p align="center"> 
-<img src="https://github.com/ikostan/CodinGame/blob/master/codingame_img.png">
-</p>
-<!--![CodinGame Logo](https://github.com/ikostan/CodinGame/blob/master/codingame_img.png?style=center)-->
