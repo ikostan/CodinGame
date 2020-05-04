@@ -4,7 +4,9 @@ Those are my Python3 solutions for CodinGame puzzles
 
 [For more info please visit CodinGame website](https://www.codingame.com)
 
-1. [Completed Puzzles (Easy Level, Python 3)](https://github.com/ikostan/CodinGame/tree/master/CLASSIC_PUZZLE_EASY)
+### List of content
+
+1. [CLASSIC PUZZLE - EASY (Python 3)](https://github.com/ikostan/CodinGame/tree/master/CLASSIC_PUZZLE_EASY)
 
 ### Setting up Python3 virtual environment on Windows machine:
 
